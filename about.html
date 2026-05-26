@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>About</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .about-hero {
+      padding: 80px 20px;
+      background: linear-gradient(to right, #1a1208, #2c1b10);
+      color: white;
+      text-align: center;
+    }
+
+    .about-section {
+      padding: 60px 20px;
+    }
+
+    .card {
+      border: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-secondary" style="background-color:#1a1208;">
+    <div class="container">
+      <a class="navbar-brand text-light fw-bold fs-2" href="#">Community Portal</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav gap-1 fs-5">
+          <li class="nav-item"><a class="nav-link text-light" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="rsf.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="newspage.html">News</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="announcements.html">Announcements</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="about-hero">
+    <h1 class="fw-bold">About This Portal</h1>
+    <p class="lead">A simple community system for residents and barangay services</p>
+    <p class="mb-0">© 2026 Community Portal. All rights reserved.</p>
+  </div>
+
+  <!-- Content Section -->
+  <div class="container about-section">
+
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <div class="card p-4 h-100 text-light">
+          <h3 class="fw-bold mb-3">Our Purpose</h3>
+          <p>
+            The Community Portal was created to make barangay services more accessible and organized.
+            Residents can request documents, view announcements, and stay updated with local news in one place.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card p-4 h-100 text-light">
+          <h3 class="fw-bold mb-3">Features</h3>
+          <ul>
+            <li>Online Resident Service Requests</li>
+            <li>Latest Community News</li>
+            <li>Important Announcements</li>
+            <li>Easy Navigation for Residents</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <div class="card p-4 text-light">
+          <h3 class="fw-bold mb-3">Developer</h3>
+          <p class="mb-0">
+            This portal was designed and developed by <b>SK Lee "Pogi" Alpas</b> as a community-focused project
+            to improve digital access to barangay services and information.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
